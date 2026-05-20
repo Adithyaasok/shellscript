@@ -1,0 +1,6 @@
+echo "enter number"
+read n
+for((i=1;i<n;i++))
+do
+touch file$i.txt
+done
